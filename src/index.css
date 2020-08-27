@@ -1,3 +1,13 @@
+body{
+    width: 100%;
+    position: absolute;
+    margin: 0;
+}
+.menu-header{
+    background-image: url(../public/images/landing.jpg);
+margin-top: 0;
+    
+}
 .menu-icon{
     width: 35px;
     height: 5px;
@@ -5,6 +15,7 @@
     margin: 6px 0;
     display: flex;
     top: 20px;
+    
 }
 div#landing-page{
     background-image: url(img/landing.jpg);
@@ -15,7 +26,9 @@ div#landing-page{
 }
 #landing-text{
     color: white;
-    margin-left: 25%;
+    margin-top: 1%;
+    margin-left:13%;
+    font-size: 20px;
 }
 #avatar-circle{
     display: flex;
@@ -29,6 +42,7 @@ div#landing-page{
     margin: 6px 0;
     display: flex;
     margin-left: 1%;
+    
   }
 #happy-hour{
     height: 300px ;
