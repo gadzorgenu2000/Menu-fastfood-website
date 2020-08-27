@@ -75,7 +75,7 @@
 }
 
 /* desktop styles */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 620px) and (max-width: 1400px) {
 	.food_nav li{
 		font-size: 1.6rem;
 		padding: 10px 10px;
