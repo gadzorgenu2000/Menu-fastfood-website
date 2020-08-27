@@ -50,8 +50,9 @@ div#landing-page{
     display: flex;
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    /* grid-template-columns: auto auto auto auto; */
+    flex-direction: row;
     margin-top: 100px;
   }
 #orange-square{
@@ -304,6 +305,12 @@ footer img{
      }
      .food-description, .drink{
          margin-left: 5%;
+         width: 100%;
+     }
+     .one{
+         width: 80%;
+     }
+     .grid-container{
          width: 100%;
      }
 }
