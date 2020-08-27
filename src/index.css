@@ -152,6 +152,96 @@ padding-left: 7%;
     display: flex;
     
 }
+
+.food_container{
+  background: url("../public/images/foodsBg.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+}
+.food_div{
+  margin: 2%;
+  padding: 6%;
+}
+.food_nav{
+  list-style-type: none;
+  text-decoration: none;
+  background-color: lightgray;
+  padding-left: 20%;
+}
+.food_nav li{
+  display: inline-block;
+    color: white;
+    padding: 10px 5px;
+    font-size: 0.6rem;
+}
+.food_nav a{
+  text-decoration: none;
+  color: inherit;
+}
+.food_nav .active {
+    background-color: white;
+    color: black;
+    padding: 10px 5px;
+    border-bottom:;
+}
+.food_nav li:hover {
+    opacity: 0.5;
+}
+.image_div{
+  background-color: white;
+  color: #333;
+  padding-top: 3%;
+  overflow-x: scroll;
+}
+.image_container{
+  width: 85vw;
+}
+.row_container {
+    display: flex;
+    padding: 0px 10px;
+    padding-left: 50px;
+}
+.column {
+  flex: 33.33%;
+}
+.row_container img{
+  width: 100%;
+}
+.row_container h4{
+  font-size: 0.5rem;
+  padding-bottom: 5px;
+}
+.tab_content{
+  display: none;
+}
+.image_div div .drink{  
+  margin-left: 30%;
+}
+.chicken{
+  margin-left: 30%;
+} 
+.rice{
+  margin-left: 30%;
+}
+
+/* desktop styles */
+@media screen and (min-width: 620px) and (max-width: 1400px) {
+  .food_nav li{
+    font-size: 1.6rem;
+    padding: 10px 10px;
+  }
+  .row_container {
+      display: flex;
+      padding-left: 17%;
+      padding-right: 5%;
+  }
+  .row_container h4{
+    font-size: 1rem;
+  }
+
+}
+
+
 /*  */
 /* Slideshow container */
 .slideshow-container {
@@ -364,3 +454,4 @@ footer img{
         width: 100%;
     }
 }
+

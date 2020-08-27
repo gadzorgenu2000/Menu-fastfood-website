@@ -25,7 +25,7 @@
                     <p class="happy">Happy Hour!</p>
                     <p class="happy">Party Time!</p>
                 </div>
-                <div class=" one"><img src="../public//images/breakfast.jpg"/></div>
+                <div class=" one"><img src="../public/images/breakfast.jpg"/></div>
                 <div class="one"><img src="../public/images/lunch.jpg" alt="lunch"></div>
                 <div class=" one"><img src="../public/images/dinner.jpg" alt="dinner"></div>
             </div>
@@ -75,6 +75,72 @@
             </div>
             
         </div>
+
+
+        <section class="food_container">
+
+<!------------------------ link tabs ---------------------->
+    <div class="food_div">
+      <div>
+        <ul class="food_nav">
+          <li><a href="#fast_food" onclick="openTab(event, 'fast_food')" id="defaultOpen" class=" tablinks">Fast Food</a></li>
+          <li><a href="#drinks" onclick="openTab(event, 'drinks')" class="tablinks">Drinks</a></li>
+          <li><a href="#chicken" onclick="openTab(event, 'chicken')" class="tablinks">Chicken</a></li>
+          <li><a href="#rice" onclick="openTab(event, 'rice')" class="tablinks">Rice</a></li>
+        </ul>
+      </div>
+
+<!---------------------- Fast food images ---------------->
+      <div class="image_div">
+          <div class="image_container tab_content" id="fast_food">
+                <div class="row_container">
+                  <div class="column">
+                      <img src="../public/images/chickenBurger.jpg" alt="Chicken Burger">
+                      <br/><br/>
+                      <h4>Chicken Burger</h4>
+                  </div>
+
+                  <div class="column">
+                      <img src="images/beefBurger.jpg" alt="Beef Burger">
+                      <br/><br/>
+                      <h4>Beef Burger</h4>
+                  </div>
+
+                  <div class="column">
+                      <img src="images/chickenPizza.jpg" alt="Chicken Pizza">
+                      <br/><br/>
+                      <h4>Chicken Pizza</h4>
+                  </div>
+              </div>
+
+              </div>
+          
+          
+ <!---------------- Drink tab --------------->
+              <div id="drinks" class="tab_content">
+                <img src="../public/images/lunch.jpg" class="drink" alt="Drink">
+                <br/>
+                <h4 class="drink">Drink</h4><br>
+              </div>
+
+<!----------------- Chicken tab --------------->
+              <div id="chicken" class="tab_content">
+                <img src="../public/images/dinner.jpg" class="chicken" alt="Chicken">
+                <br/>
+                <h4 class="chicken">Chicken</h4><br>
+              </div>
+
+<!----------------- Rice tab ------------------->
+              <div id="rice" class="tab_content">
+                <img src="../public/images/fastFood2.jpg" class="rice" alt="Rice">
+                <br/>
+                <h4 class="rice">Rice</h4><br>
+              </div>
+          </div>
+
+
+    </div>
+  </section>
         
         <div class="customers">
             <!-- Slideshow container -->
@@ -136,6 +202,7 @@
                     </div>
                     
                 </footer>
-                <script src="main.js"></script>
+        
+                <script src="../src/main.js"></script>
     </body>
 </html>
